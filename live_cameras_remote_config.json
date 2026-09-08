@@ -61,7 +61,7 @@
       "location": "Barcelona, Spain",
       "description": "Gaudí's soaring, still-unfinished basilica, a landmark of Barcelona's skyline.",
       "youtubeID": "VlcwKEDOgOk",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "Shibuya Crossing, Tokyo",
@@ -103,7 +103,7 @@
       "location": "Rio de Janeiro, Brazil",
       "description": "The towering statue of Christ the Redeemer overlooking Rio de Janeiro from Corcovado mountain.",
       "youtubeID": "7Xdrqo8u978",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "CN Tower, Toronto",
