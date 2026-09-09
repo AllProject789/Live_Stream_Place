@@ -1,0 +1,56 @@
+# Queries used by discover.py. Add more = more channels.
+live cam
+live webcam
+24/7 live camera
+live camera stream
+webcam live now
+beach live cam
+airport live cam
+harbour live webcam
+wildlife live cam
+city live cam
+mountain live cam
+ski resort live cam
+port live cam
+street live cam
+zoo live cam
+bird live cam
+surf live cam
+volcano live cam
+weather live cam
+traffic live cam
+railway live cam
+aquarium live cam
+farm live cam
+lake live cam
+river live cam
+island live cam
+downtown live cam
+skyline live cam
+marina live cam
+national park live cam
+safari live cam
+plaza live webcam
+bridge live cam
+castle live webcam
+waterfall live cam
+europe live webcam
+asia live webcam
+usa live cam
+italy live webcam
+spain live webcam
+greece live webcam
+thailand live cam
+japan live cam
+australia live cam
+canada live cam
+caribbean live cam
+africa live cam
+norway live webcam
+switzerland live webcam
+iceland live cam
+webcam en vivo
+webcam dal vivo
+live webcam deutschland
+camera en direct
+ao vivo webcam

@@ -1,0 +1,32 @@
+name: Refresh live streams
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"        # every 4 hours
+  workflow_dispatch:              # allow running it by hand
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check which streams are still live
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python3 src/refresh.py
+
+      - name: Commit only if something changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add streams.json data/dead.json
+          git diff --staged --quiet || git commit -m "refresh live streams"
+          git push

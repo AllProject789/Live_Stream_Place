@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+# logs
+data/*.log
+
+# reset.sh backups
+.backups/
+
+# macOS
+.DS_Store

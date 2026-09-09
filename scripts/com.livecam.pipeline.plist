@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.livecam.pipeline</string>
+
+  <!-- crawl + build daily at 06:00; run discover by hand once a month -->
+  <key>ProgramArguments</key>
+  <array>
+    <string>__PYTHON__</string>
+    <string>__ROOT__/src/pipeline.py</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>__ROOT__</string>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key><integer>6</integer>
+    <key>Minute</key><integer>0</integer>
+  </dict>
+
+  <!-- yt-dlp lives in homebrew, so PATH is needed -->
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+  </dict>
+
+  <key>StandardOutPath</key>
+  <string>__ROOT__/data/launchd.log</string>
+  <key>StandardErrorPath</key>
+  <string>__ROOT__/data/launchd.log</string>
+
+  <!-- If the Mac was asleep at the scheduled time, do not fire on wake -->
+  <key>RunAtLoad</key>
+  <false/>
+</dict>
+</plist>
