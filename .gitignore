@@ -9,3 +9,4 @@ data/*.log
 
 # macOS
 .DS_Store
+data/geo_cache.old.json
