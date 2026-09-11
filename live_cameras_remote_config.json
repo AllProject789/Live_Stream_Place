@@ -82,7 +82,7 @@
       "location": "South Africa",
       "description": "A live look into one of Africa's great wildlife reserves, home to lions, elephants and more.",
       "youtubeID": "IYQVPPHSX18",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "Sydney Opera House & Harbour Bridge",
@@ -138,7 +138,7 @@
       "location": "Washington, D.C., USA",
       "description": "The official residence and workplace of the President of the United States.",
       "youtubeID": "5p_KGD4fJZs",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "Moody Gardens Pyramid, Texas",
