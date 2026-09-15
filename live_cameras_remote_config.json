@@ -5,7 +5,7 @@
       "location": "New York, USA",
       "description": "A Times Square view honoring the memory of Flight 93, set amid the city's dazzling billboards and crowds.",
       "youtubeID": "qbsgcchN2-Y",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "Bellagio Fountains, Las Vegas",
@@ -257,7 +257,7 @@
       "location": "New York, USA",
       "description": "The bright, buzzing heart of New York City — dazzling billboards, yellow cabs and crowds around the clock.",
       "youtubeID": "JQ_jwk_7OVE",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "Giraffe Paddock Cam - Greenville, SC",
