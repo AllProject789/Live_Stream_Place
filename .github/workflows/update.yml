@@ -1,4 +1,4 @@
-name: Rebuild live streams
+name: Refresh live streams
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  rebuild:
+  refresh:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,16 +18,15 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Crawl and build streams.json
-        run: python3 src/pipeline.py
+      - name: Check which streams are still live
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python3 src/refresh.py
 
       - name: Commit only if something changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add streams.json data/index.json data/inventory.json data/unresolved.json data/geo_cache.json
-          git diff --staged --quiet || git commit -m "rebuild streams.json"
+          git add streams.json data/dead.json
+          git diff --staged --quiet || git commit -m "refresh live streams"
           git push
