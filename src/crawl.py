@@ -17,11 +17,12 @@ path is still there — slower, but yt-dlp absorbs that kind of change for us.
 """
 import json
 import os
+import re
 import subprocess
 import sys
 from concurrent.futures import ThreadPoolExecutor
 sys.path.insert(0, os.path.dirname(__file__))
-from filters import COMPILATION, place_like
+from filters import COMPILATION, NEWSCAST, place_like
 from log import Progress, setup
 from ytstreams import channel_live
 
@@ -30,8 +31,9 @@ log = setup("crawl")
 
 
 def keep_title(t):
-    """Drop compilations and titles with no place in them."""
-    return bool(t) and not COMPILATION.search(t) and place_like(t)
+    """Drop compilations, news broadcasts, and titles with no place in them."""
+    return (bool(t) and not COMPILATION.search(t) and not NEWSCAST.search(t)
+            and place_like(t))
 
 
 # ─────────────────────────── stage 1: who is live ───────────────────────────
@@ -66,30 +68,54 @@ def crawl(ch):
 
 # ───────────────────── stage 2: can it be embedded? ─────────────────────
 
+# Everything stage 2 needs, in one yt-dlp call. The `j` conversion returns a
+# JSON object per line rather than a delimited string, because a description
+# contains newlines and would otherwise run into the next cam's row.
+FIELDS = ("%(.{id,live_status,playable_in_embed,"
+          "concurrent_view_count,channel_follower_count,description})j")
+
+# A description is mostly links and boilerplate. What build.py wants out of it
+# is a place name, so the links go here and the rest is capped - it has to live
+# in inventory.json, and 1,700 full descriptions would be megabytes of sponsor text.
+LINKY = re.compile(r"(?i)https?://|www\.|subscribe|patreon|instagram|facebook|twitter"
+                   r"|discord|paypal|merch|perks|join this channel")
+DESC_CHARS = 400
+
+
+def trim_description(text):
+    lines = [l.strip() for l in (text or "").splitlines()
+             if l.strip() and not LINKY.search(l)]
+    return " \n".join(lines)[:DESC_CHARS]
+
+
 def check_batch(ids):
-    """One yt-dlp call opens several videos and asks for live_status + embeddability."""
+    """One yt-dlp call opens several videos and asks for live_status, embeddability,
+       and the numbers build.py ranks cams by."""
     urls = ["https://www.youtube.com/watch?v=" + i for i in ids]
     try:
         out = subprocess.run(["yt-dlp", "--no-warnings", "--ignore-errors", "--skip-download",
-                              "--print", "%(id)s|%(live_status)s|%(playable_in_embed)s", *urls],
+                              "--print", FIELDS, *urls],
                              capture_output=True, text=True, timeout=900).stdout
     except Exception:
-        return set()
-    keep = set()
+        return {}
+    keep = {}
     for line in out.splitlines():
-        parts = line.split("|")
-        if len(parts) < 3:
+        try:
+            d = json.loads(line)
+        except Exception:
             continue
-        vid, status, embed = (x.strip() for x in parts[:3])
         # embed=False means the owner disabled playback on other sites — that cam
         # would only ever show "Video unavailable" in our app.
-        if status == "is_live" and embed != "False":
-            keep.add(vid)
+        if d.get("live_status") != "is_live" or d.get("playable_in_embed") is False:
+            continue
+        keep[d["id"]] = {"views": d.get("concurrent_view_count") or 0,
+                         "subs": d.get("channel_follower_count") or 0,
+                         "description": trim_description(d.get("description"))}
     return keep
 
 
 def verify_live(ids, workers=8, size=25):
-    """Return only the IDs that are live *and* embeddable.
+    """{id: facts} for the cams that are live *and* embeddable.
 
     live_status values: is_live ✓ | was_live ✗ | is_upcoming ✗ | not_live ✗
     members-only / private / deleted videos make yt-dlp error out and never reach
@@ -97,15 +123,33 @@ def verify_live(ids, workers=8, size=25):
     """
     ids = list(ids)
     batches = [ids[i:i + size] for i in range(0, len(ids), size)]
-    live = set()
+    live = {}
     progress = Progress(len(ids), log, "checked", every=size * 2)
     with ThreadPoolExecutor(max_workers=workers) as ex:
         # tick by the real batch length - the last batch is usually short
         for batch, got in zip(batches, ex.map(check_batch, batches)):
-            live |= got
+            live.update(got)
             progress.tick(len(batch), extra=f"embeddable={len(live)}")
     progress.finish(f"embeddable={len(live)}")
     return live
+
+
+def dedupe(cams):
+    """One cam per title within a channel — the copy with the most viewers.
+
+    A channel can run the same feed as several simultaneous streams, each with
+    its own video id and the same title: 'Sai Bhakti Original' had ten of one
+    Shirdi cam, 'Kedarnath Live Darshan Official' ten of one. They geocode
+    identically, so all ten reach the same coordinate and the map draws ten
+    pins on one temple. The busiest copy is the one the audience is actually
+    watching, and it is the one kept.
+    """
+    best = {}
+    for v in cams:
+        key = v["title"].strip().lower()
+        if key not in best or (v.get("views") or 0) > (best[key].get("views") or 0):
+            best[key] = v
+    return list(best.values())
 
 
 def main():
@@ -129,11 +173,12 @@ def main():
 
     total = sum(len(r["live"]) for r in found)
     log.info(f"stage 2/2 - checking which of {total} cams can be embedded")
-    ok_ids = verify_live({v["id"] for r in found for v in r["live"]})
+    facts = verify_live({v["id"] for r in found for v in r["live"]})
 
     result = []
     for r in found:
-        kept = [v for v in r["live"] if v["id"] in ok_ids]
+        kept = [v | facts[v["id"]] for v in r["live"] if v["id"] in facts]
+        kept = dedupe(kept)
         if kept:
             result.append({"channel": r["channel"], "url": r["url"], "live": kept})
     result.sort(key=lambda r: -len(r["live"]))

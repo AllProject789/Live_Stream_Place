@@ -8,7 +8,7 @@
 #   ./scripts/reset.sh --cache --yes   # skip the confirmation prompt
 #
 # Everything removed is copied to .backups/<timestamp>/ first. Nothing under
-# src/, web/src/ or config/queries.txt is ever touched.
+# src/ or config/queries.txt is ever touched.
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -34,8 +34,6 @@ TARGETS=(
   data/unresolved.json
   data/streams.prev.json
   data/dead.json
-  web/public/streams.json
-  web/dist/streams.json
 )
 for f in data/*.log; do [ -e "$f" ] && TARGETS+=("$f"); done
 [ "$CACHE" = 1 ] && TARGETS+=(data/geo_cache.json)
@@ -79,7 +77,7 @@ echo "kept:"
 for f in data/geo_cache.json config/channels.json config/queries.txt; do
   [ -e "$f" ] && echo "  $f"
 done
-echo "  src/  web/src/  scripts/"
+echo "  src/  scripts/"
 
 # ---- next step ----
 if [ ! -e config/channels.json ]; then
