@@ -17,7 +17,7 @@ log = setup("discover")
 
 
 def load_queries():
-    with open(os.path.join(ROOT, "config", "queries.txt")) as f:
+    with open(os.path.join(ROOT, "config", "queries.txt"), encoding="utf-8") as f:
         return [l.strip() for l in f if l.strip() and not l.startswith("#")]
 
 
@@ -65,7 +65,7 @@ def main():
         keep.append({"name": e["name"], "url": e["url"], "seen": len(titles)})
 
     path = os.path.join(ROOT, "config", "channels.json")
-    old = json.load(open(path)) if os.path.exists(path) else []
+    old = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else []
     by_url = {c["url"]: c for c in old}
     added = 0
     for c in keep:
@@ -73,7 +73,7 @@ def main():
             by_url[c["url"]] = c
             added += 1
     out = sorted(by_url.values(), key=lambda c: -c.get("seen", 0))
-    json.dump(out, open(path, "w"), indent=1, ensure_ascii=False)
+    json.dump(out, open(path, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     log.info(f"channels seen = {len(found)} | passed quality gate = {len(keep)} | new = {added}")
     log.info(f"wrote config/channels.json: {len(out)} channels")
 

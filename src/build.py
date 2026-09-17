@@ -78,9 +78,9 @@ def rank(row):
 
 
 def save(index, unresolved):
-    json.dump(index, open(os.path.join(ROOT, "data", "index.json"), "w"),
+    json.dump(index, open(os.path.join(ROOT, "data", "index.json"), "w", encoding="utf-8"),
               indent=1, ensure_ascii=False)
-    json.dump(unresolved, open(os.path.join(ROOT, "data", "unresolved.json"), "w"),
+    json.dump(unresolved, open(os.path.join(ROOT, "data", "unresolved.json"), "w", encoding="utf-8"),
               indent=1, ensure_ascii=False)
 
 
@@ -170,7 +170,7 @@ def _fits(title, cc, place):
 
 
 def main():
-    inv = json.load(open(os.path.join(ROOT, "data", "inventory.json")))
+    inv = json.load(open(os.path.join(ROOT, "data", "inventory.json"), encoding="utf-8"))
     total = sum(len(c["live"]) for c in inv)
     log.info(f"geocoding {total} cams from {len(inv)} channels")
     log.info("(uncached lookups are rate-limited to 1/second by Nominatim)")
@@ -265,7 +265,7 @@ def main():
     streams = {"updated_at": datetime.datetime.now(datetime.UTC).isoformat(timespec="seconds"),
                "count": len(picked),
                "streams": picked}
-    json.dump(streams, open(os.path.join(ROOT, "streams.json"), "w"),
+    json.dump(streams, open(os.path.join(ROOT, "streams.json"), "w", encoding="utf-8"),
               indent=1, ensure_ascii=False)
     log.info(f"wrote streams.json with {streams['count']} cams")
 

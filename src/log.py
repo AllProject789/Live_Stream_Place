@@ -22,6 +22,9 @@ def setup(name, level=logging.INFO):
     log.setLevel(level)
     fmt = logging.Formatter("%(asctime)s  %(message)s", "%H:%M:%S")
 
+    if hasattr(sys.stdout, "reconfigure"):      # console codepage (e.g. cp1252 on Windows) can't print every channel name
+        sys.stdout.reconfigure(errors="replace")
+
     console = logging.StreamHandler(sys.stdout)
     console.setFormatter(fmt)
     log.addHandler(console)

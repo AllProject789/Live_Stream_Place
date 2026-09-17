@@ -154,7 +154,7 @@ def dedupe(cams):
 
 def main():
     slow = "--slow" in sys.argv
-    channels = json.load(open(os.path.join(ROOT, "config", "channels.json")))
+    channels = json.load(open(os.path.join(ROOT, "config", "channels.json"), encoding="utf-8"))
     found, failed = [], []
 
     log.info(f"stage 1/2 - {len(channels)} channels via "
@@ -183,7 +183,7 @@ def main():
             result.append({"channel": r["channel"], "url": r["url"], "live": kept})
     result.sort(key=lambda r: -len(r["live"]))
 
-    json.dump(result, open(os.path.join(ROOT, "data", "inventory.json"), "w"),
+    json.dump(result, open(os.path.join(ROOT, "data", "inventory.json"), "w", encoding="utf-8"),
               indent=1, ensure_ascii=False)
     kept = sum(len(r["live"]) for r in result)
     log.info(f"live found = {total}  ->  embeddable = {kept}  (dropped {total - kept})")

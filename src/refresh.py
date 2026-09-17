@@ -58,7 +58,7 @@ def main():
         log.error("streams.json not found - run crawl.py and build.py first")
         sys.exit(1)
 
-    data = json.load(open(path))
+    data = json.load(open(path, encoding="utf-8"))
     streams = data["streams"]
     ids = [s["id"] for s in streams]
     log.info(f"checking {len(ids)} cams against the YouTube Data API")
@@ -69,10 +69,10 @@ def main():
 
     data = {"updated_at": datetime.datetime.now(datetime.UTC).isoformat(timespec="seconds"),
             "count": len(alive), "streams": alive}
-    json.dump(data, open(path, "w"), indent=1, ensure_ascii=False)
+    json.dump(data, open(path, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
 
     # Keep the dead ones aside — useful for finding a replacement for that place
-    json.dump(dead, open(os.path.join(ROOT, "data", "dead.json"), "w"),
+    json.dump(dead, open(os.path.join(ROOT, "data", "dead.json"), "w", encoding="utf-8"),
               indent=1, ensure_ascii=False)
     log.info(f"checked = {len(ids)}  live = {len(alive)}  dead = {len(dead)}")
     log.info(f"quota used = {(len(ids) + 49) // 50} units of 10,000/day")

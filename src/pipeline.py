@@ -73,7 +73,7 @@ def main():
         else:
             log.warning("skipped refresh - YOUTUBE_API_KEY is not set")
 
-    d = json.load(open(src))
+    d = json.load(open(src, encoding="utf-8"))
     log.info(f"########## pipeline done: {d['count']} cams, all with lat/lon ##########")
 
 

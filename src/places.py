@@ -495,7 +495,7 @@ FLUSH_EVERY = 25
 def _load():
     global _cache
     if _cache is None:
-        _cache = json.load(open(CACHE_PATH)) if os.path.exists(CACHE_PATH) else {}
+        _cache = json.load(open(CACHE_PATH, encoding="utf-8")) if os.path.exists(CACHE_PATH) else {}
     return _cache
 
 
@@ -506,7 +506,7 @@ def _flush():
         if _cache is None or not _unsaved:
             return
         tmp = CACHE_PATH + ".tmp"       # never leave a half-written cache behind
-        json.dump(_cache, open(tmp, "w"), ensure_ascii=False)
+        json.dump(_cache, open(tmp, "w", encoding="utf-8"), ensure_ascii=False)
         os.replace(tmp, CACHE_PATH)
         _unsaved = 0
 

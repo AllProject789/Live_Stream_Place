@@ -13,7 +13,7 @@ RADIUS_KM = 60
 
 
 def load_index():
-    return json.load(open(os.path.join(ROOT, "data", "index.json")))
+    return json.load(open(os.path.join(ROOT, "data", "index.json"), encoding="utf-8"))
 
 
 def _variants(q):
