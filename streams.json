@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-09-17T06:27:52+00:00",
- "count": 496,
+ "updated_at": "2026-09-17T13:26:51+00:00",
+ "count": 492,
  "streams": [
   {
    "id": "HHp4rjhJsWI",
@@ -2403,21 +2403,6 @@
    "cc": "ca"
   },
   {
-   "id": "MwXHhauRalo",
-   "title": "PAB LIVE – Harbour Cam (24/7) | Tilley Cam | Port aux Basques, NL",
-   "channel": "PAB Live",
-   "category": "harbour",
-   "thumbnail": "https://i.ytimg.com/vi/MwXHhauRalo/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/MwXHhauRalo",
-   "views": 26,
-   "subs": 1170,
-   "place": "Channel-Port aux Basques, Newfoundland, Newfoundland and Labrador, A0M 1C0, Canada",
-   "lat": 47.5776635,
-   "lon": -59.1424188,
-   "matched_on": "Port aux Basques, NL",
-   "cc": "ca"
-  },
-  {
    "id": "pXx3YQVSUGg",
    "title": "LIVE - Fort Lauderdale Beach",
    "channel": "PTZtv",
@@ -3933,21 +3918,6 @@
    "cc": "jm"
   },
   {
-   "id": "kR_85qV5iMk",
-   "title": "🔴 LIVE 24/7: Malta Ship Spotting by day, chilling by night | 4K Grand Harbour Live",
-   "channel": "Grand Harbour Live",
-   "category": "harbour",
-   "thumbnail": "https://i.ytimg.com/vi/kR_85qV5iMk/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/kR_85qV5iMk",
-   "views": 14,
-   "subs": 1820,
-   "place": "Cruise Ship Dock, Il-Furjana, Reġjun tal-Port, FRN 1913, Malta",
-   "lat": 35.8897762,
-   "lon": 14.5086041,
-   "matched_on": "Malta Ship",
-   "cc": "mt"
-  },
-  {
    "id": "_rmUXOHSf0w",
    "title": "EarthCam Live:  Allegiant Stadium (Las Vegas, NV)",
    "channel": "EarthCam",
@@ -4711,21 +4681,6 @@
    "lon": -73.9878794,
    "matched_on": "NYC Brooklyn Bridge, New York",
    "cc": "us"
-  },
-  {
-   "id": "mn5GITwfwfE",
-   "title": "🔴 LIVE: Fähre Frisia III – Webcam Norddeich ⇄ Norderney | Blick auf Nordsee & Wattenmeer",
-   "channel": "livespotting",
-   "category": "other",
-   "thumbnail": "https://i.ytimg.com/vi/mn5GITwfwfE/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/mn5GITwfwfE",
-   "views": 10,
-   "subs": 38800,
-   "place": "Fähranleger Norderney Fracht, Spur 9, Norddeich, Norden, Landkreis Aurich, Niedersachsen, 26506, Deutschland",
-   "lat": 53.624889,
-   "lon": 7.1597455,
-   "matched_on": "Norddeich Norderney",
-   "cc": "de"
   },
   {
    "id": "Hsh-46qLpQE",
@@ -7230,21 +7185,6 @@
    "lat": 30.7338892,
    "lon": 79.0658895,
    "matched_on": "Kedarnath Darshan",
-   "cc": "in"
-  },
-  {
-   "id": "7GEI-YvGg1E",
-   "title": "Live : Kashi Vishwanath Temple काशी विश्वनाथ मंदिर से दर्शन || Kashi Vishwanath Temple Varanasi",
-   "channel": "KIRTAN SATSANG",
-   "category": "other",
-   "thumbnail": "https://i.ytimg.com/vi/7GEI-YvGg1E/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/7GEI-YvGg1E",
-   "views": 1,
-   "subs": 18600,
-   "place": "Kashi Vishwanath Temple, Tripura Bhairwi, Banaras Ghats, Varanasi, Sadar, Varanasi, Uttar Pradesh, 221001, India",
-   "lat": 25.3108219,
-   "lon": 83.0106679,
-   "matched_on": "Kashi Vishwanath",
    "cc": "in"
   },
   {
