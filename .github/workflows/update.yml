@@ -2,7 +2,7 @@ name: Refresh live streams
 
 on:
   schedule:
-    - cron: "0 */4 * * *"        # every 4 hours
+    - cron: "0 6 * * *"          # daily at 06:00 UTC
   workflow_dispatch:              # allow running it by hand
 
 permissions:
