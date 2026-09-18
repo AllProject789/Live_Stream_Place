@@ -1,34 +1,41 @@
 name: Refresh live streams
 
 on:
-  push:
-    branches:
-      - main
-
+  # Run once every day at 00:15 UTC / 05:45 AM IST
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "15 0 * * *"
 
+  # Allow manual execution from GitHub Actions
   workflow_dispatch:
 
+# Required because the workflow commits updated files back to the repository
 permissions:
   contents: write
 
 jobs:
   refresh:
+    name: Refresh live streams
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      # Checkout the latest main branch
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      # Setup Python
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
+      # Run live stream refresh script
       - name: Check which streams are still live
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: python3 src/refresh.py
+        run: |
+          python3 src/refresh.py
 
+      # Commit and push changes only when streams.json or data/dead.json changed
       - name: Commit only if something changed
         run: |
           git config user.name "github-actions[bot]"
@@ -37,7 +44,7 @@ jobs:
           git add streams.json data/dead.json
 
           if git diff --staged --quiet; then
-            echo "No changes detected."
+            echo "No changes detected. Nothing to commit."
             exit 0
           fi
 
