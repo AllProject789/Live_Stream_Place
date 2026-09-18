@@ -1,6 +1,8 @@
 name: Refresh live streams
 
 on:
+  schedule:
+    - cron: "*/5 * * * *"          # TESTING ONLY: every 5 minutes (revert to daily 04:00 UTC after testing)
   workflow_dispatch:              # allow running it by hand
 
 permissions:
