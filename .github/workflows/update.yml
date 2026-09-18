@@ -2,7 +2,7 @@ name: Refresh live streams
 
 on:
   schedule:
-    - cron: "0 4 * * *"          # daily at 04:00 UTC = midnight US Eastern (EDT); 11pm ET during EST
+    - cron: "*/1 * * * *"          # TESTING ONLY: every minute (revert to daily 04:00 UTC after testing)
   workflow_dispatch:              # allow running it by hand
 
 permissions:
