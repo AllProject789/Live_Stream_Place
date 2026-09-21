@@ -124,7 +124,7 @@
             "location": "Reykjavik, Iceland",
             "description": "A view over Iceland's capital, with the chance of catching the aurora borealis dancing overhead.",
             "youtubeID": "sUrl5nXLpt8",
-            "enabled": true
+            "enabled": false
         },
         {
             "name": "Kilauea Volcano, Hawaii",
@@ -271,7 +271,7 @@
             "location": "Greenville, South Carolina, USA",
             "description": "A close-up look at giraffes roaming their paddock at a South Carolina wildlife park.",
             "youtubeID": "sLRtUoPNH2k",
-            "enabled": true
+            "enabled": false
         },
         {
             "name": "Snowman Cam - Animals and Wildlife (Gaylord, Michigan)",
