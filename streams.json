@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-09-22T04:54:20+00:00",
- "count": 475,
+ "updated_at": "2026-09-23T04:43:57+00:00",
+ "count": 473,
  "streams": [
   {
    "id": "HHp4rjhJsWI",
@@ -2625,21 +2625,6 @@
    "lat": 45.8153178,
    "lon": -84.7280522,
    "matched_on": "Mackinac Bridge",
-   "cc": "us"
-  },
-  {
-   "id": "tQOFA9ngqms",
-   "title": "Muizenberg Beach Live Webcam | REEF South Africa  @Reef-SA",
-   "channel": "REEF SOUTH AFRICA",
-   "category": "beach",
-   "thumbnail": "https://i.ytimg.com/vi/tQOFA9ngqms/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/tQOFA9ngqms",
-   "views": 22,
-   "subs": 1940,
-   "place": "Reef Drive, Lions Gate On The Island, St. Augustine South, Saint Johns County, Florida, 32080, United States",
-   "lat": 29.8573072,
-   "lon": -81.28305,
-   "matched_on": "REEF South",
    "cc": "us"
   },
   {
@@ -6061,21 +6046,6 @@
    "lon": -4.698131,
    "matched_on": "St Brides Spa Hotel, Saundersfoot",
    "cc": "gb"
-  },
-  {
-   "id": "dqUw64ec6Hw",
-   "title": "Gaios Paxos port livestreaming webcam",
-   "channel": "Ricordo Art & Jewel",
-   "category": "harbour",
-   "thumbnail": "https://i.ytimg.com/vi/dqUw64ec6Hw/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/dqUw64ec6Hw",
-   "views": 7,
-   "subs": 767,
-   "place": "Παξός, Λάκκα, Δήμος Παξών, Περιφερειακή Ενότητα Κέρκυρας, Περιφέρεια Ιονίων Νήσων, Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου, 490 82, Ελλάς",
-   "lat": 39.2093982,
-   "lon": 20.1616339,
-   "matched_on": "Gaios Paxos",
-   "cc": "gr"
   },
   {
    "id": "kGG1CaeQ9oM",
