@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-09-23T04:43:57+00:00",
- "count": 473,
+ "updated_at": "2026-09-24T04:48:56+00:00",
+ "count": 469,
  "streams": [
   {
    "id": "HHp4rjhJsWI",
@@ -735,21 +735,6 @@
    "lat": 26.0281452,
    "lon": -80.1142111,
    "matched_on": "Beach Hollywood",
-   "cc": "us"
-  },
-  {
-   "id": "QhFYcPBmkcI",
-   "title": "EarthCam Live: New Orleans Street View",
-   "channel": "EarthCam",
-   "category": "city",
-   "thumbnail": "https://i.ytimg.com/vi/QhFYcPBmkcI/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/QhFYcPBmkcI",
-   "views": 100,
-   "subs": 887000,
-   "place": "New Orleans Street, Valley View Estates Colonia, Mission, Hidalgo County, Texas, 78572, United States",
-   "lat": 26.2000279,
-   "lon": -98.3019115,
-   "matched_on": "New Orleans Street View",
    "cc": "us"
   },
   {
@@ -4128,21 +4113,6 @@
    "cc": "us"
   },
   {
-   "id": "NXmFAhX_3vY",
-   "title": "🔴 LIVE Trains Railcam | St Louis, Missouri (PTZ)",
-   "channel": "LIVE Trains",
-   "category": "other",
-   "thumbnail": "https://i.ytimg.com/vi/NXmFAhX_3vY/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/NXmFAhX_3vY",
-   "views": 12,
-   "subs": 46900,
-   "place": "Missouri Botanical Garden, 4344, Shaw Boulevard, Southwest Garden, Saint Louis, Missouri, 63110, United States",
-   "lat": 38.6133951,
-   "lon": -90.2593825,
-   "matched_on": "Louis, Missouri",
-   "cc": "us"
-  },
-  {
    "id": "bchdO4OtIEI",
    "title": "🔴 LIVE Trains Railcam | Houston, Texas (Tower 26) East Cam",
    "channel": "LIVE Trains",
@@ -4803,21 +4773,6 @@
    "cc": "gl"
   },
   {
-   "id": "6lFBKxt8kIo",
-   "title": "EarthCam Live: New Orleans Balcony View",
-   "channel": "EarthCam",
-   "category": "other",
-   "thumbnail": "https://i.ytimg.com/vi/6lFBKxt8kIo/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/6lFBKxt8kIo",
-   "views": 9,
-   "subs": 887000,
-   "place": "Balcony on Bourbon, 327, Bourbon Street, French Quarter, New Orleans, Orleans Parish, Louisiana, 70130, United States",
-   "lat": 29.9561393,
-   "lon": -90.0682699,
-   "matched_on": "New Orleans Balcony",
-   "cc": "us"
-  },
-  {
    "id": "O0UGT7AT3aw",
    "title": "EarthCam Live:  Chicago Skydeck Cam (Chicago, IL)",
    "channel": "EarthCam",
@@ -5311,21 +5266,6 @@
    "lon": -16.7730306,
    "matched_on": "Madeira Airport",
    "cc": "pt"
-  },
-  {
-   "id": "eCe08tVSy3I",
-   "title": "Inside Maria's Living Room 24/7 #philippines #davaocity",
-   "channel": "Maria Deseo - Philippines Live Webcam",
-   "category": "other",
-   "thumbnail": "https://i.ytimg.com/vi/eCe08tVSy3I/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/eCe08tVSy3I",
-   "views": 8,
-   "subs": 32300,
-   "place": "Davao City, Davao Region, Philippines",
-   "lat": 7.0648306,
-   "lon": 125.6080623,
-   "matched_on": "Davao City Philippines",
-   "cc": "ph"
   },
   {
    "id": "0hCX2G_-Jzg",
