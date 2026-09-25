@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-09-24T04:48:56+00:00",
- "count": 469,
+ "updated_at": "2026-09-25T04:56:33+00:00",
+ "count": 467,
  "streams": [
   {
    "id": "HHp4rjhJsWI",
@@ -1365,21 +1365,6 @@
    "lat": 48.1404112,
    "lon": -123.409035,
    "matched_on": "USA Now",
-   "cc": "us"
-  },
-  {
-   "id": "AkqGOcpDvZU",
-   "title": "LIVE: Middle East real-time cameras from Iran, Israel, Qatar and more",
-   "channel": "Intel Cams | OSINT",
-   "category": "other",
-   "thumbnail": "https://i.ytimg.com/vi/AkqGOcpDvZU/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/AkqGOcpDvZU",
-   "views": 45,
-   "subs": 117000,
-   "place": "Middle East, Baltimore, Maryland, United States",
-   "lat": 39.3014159,
-   "lon": -76.5888477,
-   "matched_on": "Middle East",
    "cc": "us"
   },
   {
@@ -6826,21 +6811,6 @@
    "lon": 12.2938879,
    "matched_on": "Chioggia Sottomarina",
    "cc": "it"
-  },
-  {
-   "id": "2gLzCqlLWg0",
-   "title": "🔴Live Shirdi Sai Baba Darshan Today - 16 Sep 2026",
-   "channel": "Sai Dham Bhakti Original",
-   "category": "other",
-   "thumbnail": "https://i.ytimg.com/vi/2gLzCqlLWg0/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/2gLzCqlLWg0",
-   "views": 5,
-   "subs": 5410,
-   "place": "Shirdi Sai Baba Samadhi Mandir, NH752G, Shirdi, Rahta, Ahilyanagar District, Maharashtra, 423109, India",
-   "lat": 19.7664987,
-   "lon": 74.4765602,
-   "matched_on": "Shirdi Sai",
-   "cc": "in"
   },
   {
    "id": "5ppU7BqHdvs",
