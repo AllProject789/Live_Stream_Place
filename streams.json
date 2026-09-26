@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-09-25T04:56:33+00:00",
- "count": 467,
+ "updated_at": "2026-09-26T04:56:53+00:00",
+ "count": 466,
  "streams": [
   {
    "id": "HHp4rjhJsWI",
@@ -4216,21 +4216,6 @@
    "lon": -2.9232947,
    "matched_on": "Lake Windermere, UK",
    "cc": "gb"
-  },
-  {
-   "id": "7wHgYc_kN98",
-   "title": "Miami River Camera",
-   "channel": "Miami River Camera ",
-   "category": "nature",
-   "thumbnail": "https://i.ytimg.com/vi/7wHgYc_kN98/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/7wHgYc_kN98",
-   "views": 12,
-   "subs": 3990,
-   "place": "Great Miami River, Ohio, United States",
-   "lat": 39.7245978,
-   "lon": -84.2269671,
-   "matched_on": "Miami River",
-   "cc": "us"
   },
   {
    "id": "pq1fSKRlbc8",
