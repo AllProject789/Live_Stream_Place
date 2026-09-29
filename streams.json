@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-09-28T05:22:31+00:00",
- "count": 460,
+ "updated_at": "2026-09-29T05:42:48+00:00",
+ "count": 459,
  "streams": [
   {
    "id": "HHp4rjhJsWI",
@@ -4621,21 +4621,6 @@
    "lon": -145.7173085,
    "matched_on": "Orca Whale",
    "cc": "us"
-  },
-  {
-   "id": "QX2cuAthb_w",
-   "title": "Barking Cam1",
-   "channel": "Railcam Live1",
-   "category": "other",
-   "thumbnail": "https://i.ytimg.com/vi/QX2cuAthb_w/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/QX2cuAthb_w",
-   "views": 10,
-   "subs": 2110,
-   "place": "Barking, Greater London, England, IG11 8NL, United Kingdom",
-   "lat": 51.5389922,
-   "lon": 0.0804245,
-   "matched_on": "Barking Cam1",
-   "cc": "gb"
   },
   {
    "id": "etq2SdxZi6A",
