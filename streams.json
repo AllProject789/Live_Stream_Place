@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-09-30T05:31:13+00:00",
- "count": 457,
+ "updated_at": "2026-10-01T05:51:19+00:00",
+ "count": 454,
  "streams": [
   {
    "id": "HHp4rjhJsWI",
@@ -226,21 +226,6 @@
    "lon": 28.9800112,
    "matched_on": "Istanbul Hagia",
    "cc": "tr"
-  },
-  {
-   "id": "i46dAHC6IgA",
-   "title": "LIVE :गणेश चतुर्थी स्पेशल :गणेश मंत्र - Ganesh Mantra ॐ गं गणपतये नमो नम Om Gan Ganpataye Namo Namah",
-   "channel": "Pratha Bhakti",
-   "category": "other",
-   "thumbnail": "https://i.ytimg.com/vi/i46dAHC6IgA/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/i46dAHC6IgA",
-   "views": 184,
-   "subs": 53300,
-   "place": "Mantra Multicuisine Restaurant, 224/Y,10224/Y, Outer Ring Road, Banashankari 2nd Stage, Ganesh Mandira Ward, Bengaluru West City Corporation, Bengaluru, Bangalore South, Bengaluru Urban, Karnataka, 560085, India",
-   "lat": 12.9235989,
-   "lon": 77.5550354,
-   "matched_on": "Ganesh Mantra",
-   "cc": "in"
   },
   {
    "id": "4XYbh4Pegzw",
@@ -1546,21 +1531,6 @@
    "lon": 10.1421431,
    "matched_on": "Kiel-Holtenau Schleuse",
    "cc": "de"
-  },
-  {
-   "id": "znW_pZToxsI",
-   "title": "🔴 LIVE | El Grito Mexico City 2026 🇲🇽 | Grand Mexican Independence Celebration at the Zócalo 🎉",
-   "channel": "Festival Sphere",
-   "category": "city",
-   "thumbnail": "https://i.ytimg.com/vi/znW_pZToxsI/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/znW_pZToxsI",
-   "views": 40,
-   "subs": 12600,
-   "place": "C. El Grito, San Pedro Nopala, Oaxaca, México",
-   "lat": 17.7737964,
-   "lon": -97.5936061,
-   "matched_on": "Grito Mexico",
-   "cc": "mx"
   },
   {
    "id": "bbjwotvAvDM",
@@ -5176,21 +5146,6 @@
    "lon": -81.2891001,
    "matched_on": "St. Augustine Alligator Farm",
    "cc": "us"
-  },
-  {
-   "id": "axELjHiqIic",
-   "title": "Panorama Webcam Rio de Janeiro - Copacabana beach - Posto 6",
-   "channel": "Homes in Rio",
-   "category": "beach",
-   "thumbnail": "https://i.ytimg.com/vi/axELjHiqIic/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/axELjHiqIic",
-   "views": 8,
-   "subs": 14900,
-   "place": "Praia de Copacabana, Copacabana, Rio de Janeiro, Região Sudeste, Brasil",
-   "lat": -22.9757003,
-   "lon": -43.1866161,
-   "matched_on": "Copacabana beach",
-   "cc": "br"
   },
   {
    "id": "N6pEg-_P52g",
