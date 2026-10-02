@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-01T05:51:19+00:00",
- "count": 454,
+ "updated_at": "2026-10-02T05:35:24+00:00",
+ "count": 452,
  "streams": [
   {
    "id": "HHp4rjhJsWI",
@@ -2221,21 +2221,6 @@
    "lon": -63.1118517,
    "matched_on": "SXM Airport",
    "cc": "nl"
-  },
-  {
-   "id": "MH0_mPt-VXE",
-   "title": "FR24 - MSY New Orleans LIVE 24/7",
-   "channel": "Flightradar24",
-   "category": "other",
-   "thumbnail": "https://i.ytimg.com/vi/MH0_mPt-VXE/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/MH0_mPt-VXE",
-   "views": 27,
-   "subs": 442000,
-   "place": "Louis Armstrong New Orleans International Airport, Veterans Memorial Boulevard, Kenner, Jefferson Parish, Louisiana, 70062, United States",
-   "lat": 29.9942002,
-   "lon": -90.2643044,
-   "matched_on": "MSY New Orleans",
-   "cc": "us"
   },
   {
    "id": "J4z7CIrvsuw",
@@ -4756,21 +4741,6 @@
    "lon": 100.0531331,
    "matched_on": "Chaweng",
    "cc": "th"
-  },
-  {
-   "id": "DUX3qXG-SYg",
-   "title": "🟢 Ocho Rios Live Camera 24/7, St Ann Jamaica, Town Centre View",
-   "channel": "See Jamaica ",
-   "category": "other",
-   "thumbnail": "https://i.ytimg.com/vi/DUX3qXG-SYg/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/DUX3qXG-SYg",
-   "views": 9,
-   "subs": 109000,
-   "place": "Ocho Rios, Saint Ann, Middlesex County, Jamaica",
-   "lat": 18.4081045,
-   "lon": -77.1011092,
-   "matched_on": "Ocho Rios",
-   "cc": "jm"
   },
   {
    "id": "HozfwlxzwnU",
