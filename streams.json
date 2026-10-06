@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-05T05:37:59+00:00",
- "count": 450,
+ "updated_at": "2026-10-06T06:18:54+00:00",
+ "count": 448,
  "streams": [
   {
    "id": "HHp4rjhJsWI",
@@ -2896,21 +2896,6 @@
    "lon": -64.5750887,
    "matched_on": "White Bay Beach",
    "cc": "vg"
-  },
-  {
-   "id": "xM1-e429Y3A",
-   "title": "Hamptons.com - LIVE! 4K Main Beach, East Hampton Village, New York - Hamptons Surf Report",
-   "channel": "Hamptons. com",
-   "category": "beach",
-   "thumbnail": "https://i.ytimg.com/vi/xM1-e429Y3A/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/xM1-e429Y3A",
-   "views": 19,
-   "subs": 27400,
-   "place": "Main Street, Village of East Hampton, Town of East Hampton, Suffolk County, New York, 11937, United States",
-   "lat": 40.9597173,
-   "lon": -72.189078,
-   "matched_on": "! Main, East Hampton Village, New York",
-   "cc": "us"
   },
   {
    "id": "Vvq37CnY0iY",
@@ -6421,21 +6406,6 @@
    "lon": -2.8686864,
    "matched_on": "Clevedon Marine Lake",
    "cc": "gb"
-  },
-  {
-   "id": "jHblwnymZ2c",
-   "title": "Columbia River Gorge Wildflowers & Palouse Hills | Peaceful Nature Ambience 24/7",
-   "channel": "4K Relaxation Channel",
-   "category": "nature",
-   "thumbnail": "https://i.ytimg.com/vi/jHblwnymZ2c/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/jHblwnymZ2c",
-   "views": 5,
-   "subs": 1050000,
-   "place": "Chehalis River Gorge Trail, Area C (Sasquatch Country), Kent, Fraser Valley Regional District, British Columbia, V0M 1L0, Canada",
-   "lat": 49.3018233,
-   "lon": -121.9394868,
-   "matched_on": "Columbia River Gorge",
-   "cc": "ca"
   },
   {
    "id": "cK71xhMRtds",
