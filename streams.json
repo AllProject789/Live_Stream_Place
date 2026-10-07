@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-06T06:18:54+00:00",
- "count": 448,
+ "updated_at": "2026-10-07T05:57:43+00:00",
+ "count": 446,
  "streams": [
   {
    "id": "HHp4rjhJsWI",
@@ -211,21 +211,6 @@
    "lon": -123.1312214,
    "matched_on": "Vancouver Aquarium",
    "cc": "ca"
-  },
-  {
-   "id": "bbVe5h7X3uw",
-   "title": "[4K] Istanbul 🇹🇷 Hagia Sophia, Bosphorus Strait & Waterfront Skyline Views",
-   "channel": "Florida Deep House",
-   "category": "harbour",
-   "thumbnail": "https://i.ytimg.com/vi/bbVe5h7X3uw/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/bbVe5h7X3uw",
-   "views": 187,
-   "subs": 2520,
-   "place": "Ayasofya, 1, Ayasofya Meydanı, Cankurtaran Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34122, Türkiye",
-   "lat": 41.0085046,
-   "lon": 28.9800112,
-   "matched_on": "Istanbul Hagia",
-   "cc": "tr"
   },
   {
    "id": "4XYbh4Pegzw",
@@ -3270,21 +3255,6 @@
    "lat": 39.9527237,
    "lon": -75.1635262,
    "matched_on": "Philadelphia, Pennsylvania",
-   "cc": "us"
-  },
-  {
-   "id": "KSxc-N67TU4",
-   "title": "EarthCam Live:  Aquarium Cam (Baltimore, Maryland)",
-   "channel": "EarthCam",
-   "category": "wildlife",
-   "thumbnail": "https://i.ytimg.com/vi/KSxc-N67TU4/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/KSxc-N67TU4",
-   "views": 16,
-   "subs": 887000,
-   "place": "Baltimore, Maryland, United States",
-   "lat": 39.2908816,
-   "lon": -76.610759,
-   "matched_on": "Baltimore, Maryland",
    "cc": "us"
   },
   {
