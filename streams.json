@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-07T05:57:43+00:00",
- "count": 446,
+ "updated_at": "2026-10-08T06:02:05+00:00",
+ "count": 444,
  "streams": [
   {
    "id": "HHp4rjhJsWI",
@@ -2973,21 +2973,6 @@
    "cc": "us"
   },
   {
-   "id": "N9KCrI_-Zv0",
-   "title": "HMS Warrior Webcam",
-   "channel": "Royal Navy Museums",
-   "category": "other",
-   "thumbnail": "https://i.ytimg.com/vi/N9KCrI_-Zv0/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/N9KCrI_-Zv0",
-   "views": 18,
-   "subs": 17300,
-   "place": "HMS Warrior, Main Road, Portsea, Portsmouth, England, PO1 3LJ, United Kingdom",
-   "lat": 50.7982091,
-   "lon": -1.1092567,
-   "matched_on": "HMS Warrior",
-   "cc": "gb"
-  },
-  {
    "id": "DM9VFnG7T1o",
    "title": "🌞 🌊 Mallorca Webcam Playa Palmira Rendezvous Garden Paguera 4K 180° #Balearics #Mallorca #Livestream",
    "channel": "Mallorca Webcam",
@@ -5476,21 +5461,6 @@
    "lon": -81.3145395,
    "matched_on": "St. Augustine, Florida",
    "cc": "us"
-  },
-  {
-   "id": "H2-cJYJLGcI",
-   "title": "🔴 Live Shirdi Sai Baba Temple :  16 Sep 2026 | Shirdi Sai Baba Live Darshan",
-   "channel": "Sai Bhakti Original",
-   "category": "other",
-   "thumbnail": "https://i.ytimg.com/vi/H2-cJYJLGcI/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/H2-cJYJLGcI",
-   "views": 7,
-   "subs": 19900,
-   "place": "Shirdi Sai Baba Samadhi Mandir, NH752G, Shirdi, Rahta, Ahilyanagar District, Maharashtra, 423109, India",
-   "lat": 19.7664987,
-   "lon": 74.4765602,
-   "matched_on": "Shirdi Sai",
-   "cc": "in"
   },
   {
    "id": "tBEIYdw1HeM",
