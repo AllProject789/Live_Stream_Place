@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-08T06:02:05+00:00",
- "count": 444,
+ "updated_at": "2026-10-09T06:06:59+00:00",
+ "count": 443,
  "streams": [
   {
    "id": "HHp4rjhJsWI",
@@ -2941,21 +2941,6 @@
    "lon": -16.5720078,
    "matched_on": "TENERIFE AIRPORT",
    "cc": "es"
-  },
-  {
-   "id": "sShWJMKFV-k",
-   "title": "BOY SAYONG ( CAM 3 ) INSIDE AGDAO PUBLIC MARKET DAVAO CITY ( ROSE STORE )",
-   "channel": "Maria Deseo - Philippines Live Webcam",
-   "category": "city",
-   "thumbnail": "https://i.ytimg.com/vi/sShWJMKFV-k/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/sShWJMKFV-k",
-   "views": 18,
-   "subs": 32300,
-   "place": "Davao City, Davao Region, Philippines",
-   "lat": 7.0648306,
-   "lon": 125.6080623,
-   "matched_on": "Davao City Philippines",
-   "cc": "ph"
   },
   {
    "id": "h8-J3JGU7g4",
