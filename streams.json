@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-09T06:06:59+00:00",
- "count": 443,
+ "updated_at": "2026-10-10T05:50:58+00:00",
+ "count": 440,
  "streams": [
   {
    "id": "HHp4rjhJsWI",
@@ -2193,21 +2193,6 @@
    "cc": "nl"
   },
   {
-   "id": "J4z7CIrvsuw",
-   "title": "🔴Live Darshan - Shree Somnath Temple Junagadh , Gujarat (श्री सोमनाथ मंदिर के दर्शन)",
-   "channel": "BHAKTI LIVE",
-   "category": "other",
-   "thumbnail": "https://i.ytimg.com/vi/J4z7CIrvsuw/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/J4z7CIrvsuw",
-   "views": 27,
-   "subs": 360000,
-   "place": "Junagadh, Junagadh City Taluka, Junagadh, Gujarat, 362015, India",
-   "lat": 21.5220416,
-   "lon": 70.4582458,
-   "matched_on": "Junagadh, Gujarat",
-   "cc": "in"
-  },
-  {
    "id": "XrLz_hOBCT8",
    "title": "The Most Relaxing Ocean (LIVE 24/7). Ocean Sounds, Tropical Beach & Ocean Waves",
    "channel": "Luxury Island",
@@ -2478,21 +2463,6 @@
    "cc": "gb"
   },
   {
-   "id": "7p3ZFFr3ksE",
-   "title": "Maria's Cam 4a Rachel Store #philippines #davaocity",
-   "channel": "Maria Deseo - Philippines Live Webcam",
-   "category": "other",
-   "thumbnail": "https://i.ytimg.com/vi/7p3ZFFr3ksE/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/7p3ZFFr3ksE",
-   "views": 22,
-   "subs": 32300,
-   "place": "Davao City, Davao Region, Philippines",
-   "lat": 7.0648306,
-   "lon": 125.6080623,
-   "matched_on": "Davao City Philippines",
-   "cc": "ph"
-  },
-  {
    "id": "Mf_qId_7mlM",
    "title": "🔴LIVE🔴 Mackinac Bridge Camera from the Riviera Motel in Mackinaw City",
    "channel": "Riviera Motel of Mackinaw City",
@@ -2536,21 +2506,6 @@
    "lon": -0.8269793,
    "matched_on": "Game Lodge",
    "cc": "gb"
-  },
-  {
-   "id": "2yldbFFXSt8",
-   "title": "LIVE: Train Traffic in Hannover Germany | ICEs, REs, Freight Trains | 24/7 Live Stream",
-   "channel": "Railcam Hannover",
-   "category": "railway",
-   "thumbnail": "https://i.ytimg.com/vi/2yldbFFXSt8/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/2yldbFFXSt8",
-   "views": 21,
-   "subs": 4180,
-   "place": "Hannover, Region Hannover, Niedersachsen, Deutschland",
-   "lat": 52.3744779,
-   "lon": 9.7385532,
-   "matched_on": "Hannover Germany",
-   "cc": "de"
   },
   {
    "id": "5e4lsEe4Vew",
