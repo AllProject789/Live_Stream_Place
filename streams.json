@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-10T05:50:58+00:00",
- "count": 440,
+ "updated_at": "2026-10-11T05:44:51+00:00",
+ "count": 438,
  "streams": [
   {
    "id": "HHp4rjhJsWI",
@@ -4398,21 +4398,6 @@
    "cc": "us"
   },
   {
-   "id": "lHPtw6tKigc",
-   "title": "WSR - Watchet Camera 2. Watchet Visitor Centre | West Somerset Railway | Railcam UK",
-   "channel": "RailcamLive - WSR ",
-   "category": "railway",
-   "thumbnail": "https://i.ytimg.com/vi/lHPtw6tKigc/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/lHPtw6tKigc",
-   "views": 10,
-   "subs": 5710,
-   "place": "West Somerset Railway, Warren Road, Alcombe, Minehead, Somerset, England, TA24 5BG, United Kingdom",
-   "lat": 51.2071087,
-   "lon": -3.4697323,
-   "matched_on": "West Somerset Railway",
-   "cc": "gb"
-  },
-  {
    "id": "hTOmWcmr2Tc",
    "title": "LIVE OrcaLab Main Cams - Orca Whale Lookout | explore.org",
    "channel": "Explore Whale Walrus & Seal Cams",
@@ -6286,21 +6271,6 @@
    "lon": -2.8686864,
    "matched_on": "Clevedon Marine Lake",
    "cc": "gb"
-  },
-  {
-   "id": "cK71xhMRtds",
-   "title": "EarthCam Live:  Wildwoods Cam (Wildwood, NJ)",
-   "channel": "EarthCam",
-   "category": "other",
-   "thumbnail": "https://i.ytimg.com/vi/cK71xhMRtds/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/cK71xhMRtds",
-   "views": 5,
-   "subs": 887000,
-   "place": "Wildwood, Cape May County, New Jersey, 08260, United States",
-   "lat": 38.9841969,
-   "lon": -74.8142502,
-   "matched_on": "Wildwood, NJ",
-   "cc": "us"
   },
   {
    "id": "3nAgms-Xtms",
