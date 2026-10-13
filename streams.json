@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-12T05:55:40+00:00",
- "count": 437,
+ "updated_at": "2026-10-13T06:46:19+00:00",
+ "count": 436,
  "streams": [
   {
    "id": "HHp4rjhJsWI",
@@ -4636,21 +4636,6 @@
    "lon": 4.1285773,
    "matched_on": "Nieuwe Waterweg",
    "cc": "nl"
-  },
-  {
-   "id": "mFSGKt0sV60",
-   "title": "Lake Fairlee LoonCam",
-   "channel": "Lake Fairlee Association",
-   "category": "nature",
-   "thumbnail": "https://i.ytimg.com/vi/mFSGKt0sV60/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/mFSGKt0sV60",
-   "views": 9,
-   "subs": 2230,
-   "place": "Lake Fairlee, Thetford, West Fairlee, Orange County, Vermont, United States",
-   "lat": 43.8902015,
-   "lon": -72.2189379,
-   "matched_on": "Lake Fairlee",
-   "cc": "us"
   },
   {
    "id": "6tq8S2pp8PQ",
