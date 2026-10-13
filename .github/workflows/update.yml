@@ -3,7 +3,7 @@ name: Refresh live streams
 on:
   # Run once every day at 00:15 UTC / 05:45 AM IST
   schedule:
-    - cron: "17 12 * * *"
+    - cron: "41 0 * * *"
 
   # Allow manual execution from GitHub Actions
   workflow_dispatch:
