@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-13T06:46:19+00:00",
- "count": 436,
+ "updated_at": "2026-10-14T05:23:36+00:00",
+ "count": 434,
  "streams": [
   {
    "id": "HHp4rjhJsWI",
@@ -735,21 +735,6 @@
    "lat": 40.4972414,
    "lon": -78.4861569,
    "matched_on": "Horseshoe Curve",
-   "cc": "us"
-  },
-  {
-   "id": "OUBslrCqREs",
-   "title": "LGA Airport LIVE 24/7 • LaGuardia, New York",
-   "channel": "Flightradar24",
-   "category": "airport",
-   "thumbnail": "https://i.ytimg.com/vi/OUBslrCqREs/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/OUBslrCqREs",
-   "views": 97,
-   "subs": 442000,
-   "place": "LaGuardia Airport, 21st Avenue, Steinway, Queens, Queens County, New York, 11371, United States",
-   "lat": 40.7757145,
-   "lon": -73.873364,
-   "matched_on": "LGA Airport, New York",
    "cc": "us"
   },
   {
@@ -2745,21 +2730,6 @@
    "lat": 36.0861034,
    "lon": -115.1611002,
    "matched_on": "Las",
-   "cc": "us"
-  },
-  {
-   "id": "-qvYCbvbeN8",
-   "title": "Hellgate Ospreys Nest Cam | Cornell Lab | University of Montana",
-   "channel": "Cornell Lab Bird Cams",
-   "category": "wildlife",
-   "thumbnail": "https://i.ytimg.com/vi/-qvYCbvbeN8/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/-qvYCbvbeN8",
-   "views": 19,
-   "subs": 399000,
-   "place": "University of Montana, I 90;US 12;MT 200, Missoula, Missoula County, Montana, 59802, United States",
-   "lat": 46.8541841,
-   "lon": -113.9655283,
-   "matched_on": "University of Montana",
    "cc": "us"
   },
   {
