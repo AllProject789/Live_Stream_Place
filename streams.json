@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-14T05:23:36+00:00",
- "count": 434,
+ "updated_at": "2026-10-15T05:11:44+00:00",
+ "count": 431,
  "streams": [
   {
    "id": "HHp4rjhJsWI",
@@ -3858,21 +3858,6 @@
    "cc": "us"
   },
   {
-   "id": "o1LRcS28T2M",
-   "title": "Brisbane Weather Live",
-   "channel": "Brisbane Live",
-   "category": "other",
-   "thumbnail": "https://i.ytimg.com/vi/o1LRcS28T2M/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/o1LRcS28T2M",
-   "views": 12,
-   "subs": 10700,
-   "place": "CP2 Weather Research Radar, Hardrock Quarry, Redbank Plains, Brisbane, Queensland, 4301, Australia",
-   "lat": -27.6689977,
-   "lon": 152.8627456,
-   "matched_on": "Brisbane Weather",
-   "cc": "au"
-  },
-  {
    "id": "QIt1FaDMnQc",
    "title": "Luzern live - Lucerne live",
    "channel": "Tele1 - Zentralschweizer Fernsehen",
@@ -4546,21 +4531,6 @@
    "lon": 100.0531331,
    "matched_on": "Chaweng",
    "cc": "th"
-  },
-  {
-   "id": "HozfwlxzwnU",
-   "title": "Maria's Cam 10 ROSEMARY STREET., AGDAO DAVAO CITY PHILIPPINES  #philippines #davaocity",
-   "channel": "Maria Deseo - Philippines Live Webcam",
-   "category": "city",
-   "thumbnail": "https://i.ytimg.com/vi/HozfwlxzwnU/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/HozfwlxzwnU",
-   "views": 9,
-   "subs": 32300,
-   "place": "Macopa Street, Jereza, Wilfredo C. Aquino, Agdao District, Davao City, Davao Region, 8000, Philippines",
-   "lat": 7.0969803,
-   "lon": 125.6224769,
-   "matched_on": "STREET., AGDAO DAVAO CITY PHILIPPINES",
-   "cc": "ph"
   },
   {
    "id": "P5WnSGXJpkM",
@@ -5281,21 +5251,6 @@
    "lon": -16.9103836,
    "matched_on": "Funchal Marina",
    "cc": "pt"
-  },
-  {
-   "id": "lsLkrwlimbE",
-   "title": "Maria's Cam 9 ROSEMARY STREET AGDAO DAVAO CITY, PHILLIPPINES  #philippines #davaocity",
-   "channel": "Maria Deseo - Philippines Live Webcam",
-   "category": "city",
-   "thumbnail": "https://i.ytimg.com/vi/lsLkrwlimbE/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/lsLkrwlimbE",
-   "views": 7,
-   "subs": 32300,
-   "place": "Davao City, Davao Region, Philippines",
-   "lat": 7.0648306,
-   "lon": 125.6080623,
-   "matched_on": "Davao City Philippines",
-   "cc": "ph"
   },
   {
    "id": "HmBsPGMdxwY",
