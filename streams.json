@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-15T05:11:44+00:00",
- "count": 431,
+ "updated_at": "2026-10-16T04:59:30+00:00",
+ "count": 430,
  "streams": [
   {
    "id": "HHp4rjhJsWI",
@@ -5941,21 +5941,6 @@
    "lon": -82.7129042,
    "matched_on": "See Transylvania",
    "cc": "us"
-  },
-  {
-   "id": "8xDhxzGlJHs",
-   "title": "🔴 LIVE: Agdao Barbershop Davao City Philippines | Real-Time CCTV",
-   "channel": "Edge Babor Family PH ",
-   "category": "city",
-   "thumbnail": "https://i.ytimg.com/vi/8xDhxzGlJHs/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/8xDhxzGlJHs",
-   "views": 6,
-   "subs": 22500,
-   "place": "Agdao District, Davao City, Davao Region, 8000, Philippines",
-   "lat": 7.0836817,
-   "lon": 125.6242789,
-   "matched_on": "Agdao",
-   "cc": "ph"
   },
   {
    "id": "W01huIwqSEo",
