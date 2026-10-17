@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-16T04:59:30+00:00",
- "count": 430,
+ "updated_at": "2026-10-17T04:59:42+00:00",
+ "count": 429,
  "streams": [
   {
    "id": "HHp4rjhJsWI",
@@ -2941,21 +2941,6 @@
    "lon": -74.0060152,
    "matched_on": "New York City, NY",
    "cc": "us"
-  },
-  {
-   "id": "0GRxQoFMmqo",
-   "title": "🔴 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD",
-   "channel": "afarTV",
-   "category": "other",
-   "thumbnail": "https://i.ytimg.com/vi/0GRxQoFMmqo/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/0GRxQoFMmqo",
-   "views": 17,
-   "subs": 621000,
-   "place": "Ilulissat, Avannaata, 3952, Kalaallit Nunaat",
-   "lat": 69.2197127,
-   "lon": -51.0986385,
-   "matched_on": "Ilulissat, Greenland",
-   "cc": "gl"
   },
   {
    "id": "Sj-TMZX_4_s",
