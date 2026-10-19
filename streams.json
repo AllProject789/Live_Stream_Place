@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-18T05:08:12+00:00",
- "count": 427,
+ "updated_at": "2026-10-19T05:19:13+00:00",
+ "count": 426,
  "streams": [
   {
    "id": "HHp4rjhJsWI",
@@ -2895,21 +2895,6 @@
    "lat": 29.3056996,
    "lon": -94.7933252,
    "matched_on": "Galveston, Texas",
-   "cc": "us"
-  },
-  {
-   "id": "nslC27nST-Y",
-   "title": "24/7 Mount Rainier Wildflowers Live Stream | Peaceful Nature Sounds & Sunset Views",
-   "channel": "4K Relaxation Channel",
-   "category": "other",
-   "thumbnail": "https://i.ytimg.com/vi/nslC27nST-Y/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/nslC27nST-Y",
-   "views": 17,
-   "subs": 1050000,
-   "place": "Mount Rainier, Pierce County, Washington, United States",
-   "lat": 46.8522029,
-   "lon": -121.7575158,
-   "matched_on": "Mount Rainier",
    "cc": "us"
   },
   {
