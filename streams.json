@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-19T05:19:13+00:00",
- "count": 426,
+ "updated_at": "2026-10-20T05:17:30+00:00",
+ "count": 425,
  "streams": [
   {
    "id": "HHp4rjhJsWI",
@@ -3511,21 +3511,6 @@
    "lon": -76.8600871,
    "matched_on": "Port de Québec",
    "cc": "jm"
-  },
-  {
-   "id": "_rmUXOHSf0w",
-   "title": "EarthCam Live:  Allegiant Stadium (Las Vegas, NV)",
-   "channel": "EarthCam",
-   "category": "other",
-   "thumbnail": "https://i.ytimg.com/vi/_rmUXOHSf0w/hqdefault.jpg",
-   "embed": "https://www.youtube.com/embed/_rmUXOHSf0w",
-   "views": 13,
-   "subs": 887000,
-   "place": "Allegiant Stadium, 3333, Al Davis Way, Las Vegas, Clark County, Nevada, 89118, United States",
-   "lat": 36.0907359,
-   "lon": -115.1833303,
-   "matched_on": "Allegiant Stadium, Nevada",
-   "cc": "us"
   },
   {
    "id": "OtssjZ3hdX0",
